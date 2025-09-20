@@ -25,7 +25,7 @@ The input dataset must be a CSV file with the following columns:
 - intent: the ground truth label for the utterance
 - split (optional): one of {train, val, test} for pre-defined splits
 
-If no split column is provided, the script automatically splits the dataset into 80% training, 10% validation, and 10% testing.
+If no split column is provided, the script automatically splits the dataset into 80% training, 20% testing.
 Running the Code
 Basic usage (with random embeddings):
    python train_topic_spotting_from_csv.py --csv path/to/data.csv
