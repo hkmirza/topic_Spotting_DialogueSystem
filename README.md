@@ -37,13 +37,7 @@ The input dataset must be a CSV file with the following columns:
 - split (optional): one of {train, test} for pre-defined splits
 
 If no split column is provided, the script automatically splits the dataset into 80% training, 20% testing.
-Running the Code
-Basic usage (with random embeddings):
-   python train_topic_spotting_from_csv.py --csv path/to/data.csv
-Using pre-trained GloVe embeddings (recommended):
-   python train_topic_spotting_from_csv.py --csv path/to/data.csv --glove path/to/glove.6B.300d.txt
-With Bag-of-Topics JSON for topic recommendation:
-   python train_topic_spotting_from_csv.py --csv path/to/data.csv --glove path/to/glove.6B.300d.txt --bot path/to/bag_of_topics.json
+
 ### Outputs
 •	best_model.h5: trained model weights (best checkpoint)
 •	final_weights.h5: final model weights after training
