@@ -6,6 +6,17 @@ Before running the code, please ensure that the following dependencies and tools
 •	Python 3.8 or higher
 •	pip (Python package manager)
 •	GPU support recommended (NVIDIA CUDA/cuDNN if training on GPU)
+
+## Installation Guide
+
+### Install Python
+If you don't have Python installed, download and install it from:
+- [Python Official Website](https://www.python.org/downloads/)
+
+Verify installation:
+```sh
+python --version
+```
 ## Installation
 ### 1. Clone the repository:
    git clone https://github.com/yourusername/topic-spotting-bilstm.git
