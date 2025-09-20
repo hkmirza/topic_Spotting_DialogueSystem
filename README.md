@@ -33,7 +33,7 @@ python --version
 The input dataset must be a CSV file with the following columns:
 - utterance: the dialogue text
 - intent: the ground truth label for the utterance
-- split (optional): one of {train, val, test} for pre-defined splits
+- split (optional): one of {train, test} for pre-defined splits
 
 If no split column is provided, the script automatically splits the dataset into 80% training, 20% testing.
 Running the Code
