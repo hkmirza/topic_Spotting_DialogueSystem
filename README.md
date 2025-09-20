@@ -12,7 +12,6 @@ Before running the code, please ensure that the following dependencies and tools
 ### Install Python
 If you don't have Python installed, download and install it from:
 - [Python Official Website](https://www.python.org/downloads/)
-
 Verify installation:
 ```sh
 python --version
