@@ -1,5 +1,6 @@
 # Topic_Spotting_DialogueSystem
 
+
 This repository provides an implementation of a Topic Spotting (Intent Detection) model for conversational dialogue systems. The approach is based on a BiLSTM network enhanced with a self-attention mechanism. It enables supervised training, evaluation, and optional topic recommendation using a Bag-of-Topics (BoT) representation.
 ## Requirements
 Before running the code, please ensure that the following dependencies and tools are installed:
